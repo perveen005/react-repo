@@ -13,7 +13,7 @@ export const HeaderCardButton = (props) => {
  
   const btnClasses =`${classes.button} ${btnIsHighlighted ?classes.bump :''}`
   useEffect(() => {
-    if(cartCtx.items.length===0)
+    if(items.length===0)
     {
       return;
     }

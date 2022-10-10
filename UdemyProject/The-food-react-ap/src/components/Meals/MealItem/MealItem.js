@@ -29,7 +29,7 @@ export const MealItem = (props) => {
             </div>
         </div>
         <div>
-            <MealItemForm  onAddToCart= {addToCartHandler}/>
+            <MealItemForm  id={props.id} onAddToCart= {addToCartHandler}/>
         </div>
     </li>
   )
